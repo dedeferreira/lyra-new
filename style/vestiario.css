@@ -58,14 +58,12 @@ a {
 }
 
 .app {
-    width: 100%;
-    max-width: 420px;
-    min-height: 100dvh;
-    background: var(--white);
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    padding-bottom: 82px;
+  width: 100%;
+  min-height: 100dvh;
+  background: var(--green-pale);
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 72px;
 }
 
 .scroll-content {
@@ -131,9 +129,9 @@ a {
     color: #77c96f;
 }
 
-.section {
+/* .section {
     padding: 0 16px;
-}
+} */
 
 .avatar-tabs-section {
     margin-bottom: 12px;
@@ -302,13 +300,13 @@ a {
     left: 50%;
     transform: translateX(-50%);
     width: 100%;
-    max-width: 420px;
+    /* max-width: 420px; */
     background: var(--white);
     border-top: 1px solid #eaf0ec;
     display: flex;
     z-index: 100;
     box-shadow: 0 -8px 26px rgba(30, 100, 60, .08);
-    border-radius: 50px;
+    /* border-radius: 50px; */
 }
 
 .nav-item {

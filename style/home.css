@@ -39,7 +39,7 @@ img {
 
 .app-menu {
   width: 100%;
-  max-width: 420px;
+  /* max-width: 420px; */
   min-height: 100dvh;
   background: var(--white);
   margin: 0 auto;
