@@ -531,3 +531,13 @@
         padding-inline: 14px;
     }
 }
+
+.carousel-item {
+    display: flex !important;
+    align-items: stretch !important;
+}
+
+.item-card {
+    width: 100% !important;
+    justify-content: space-between !important;
+}
