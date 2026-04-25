@@ -45,13 +45,13 @@ a {
 }
 
 .app {
-  width: 100%;
-  min-height: 100dvh;
-  background: var(--green-pale);
-  display: flex;
-  flex-direction: column;
-  padding-bottom: 72px;
-  /* padding: 20px; */
+    width: 100%;
+    min-height: 100dvh;
+    background: var(--green-pale);
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 72px;
+    /* padding: 20px; */
 }
 
 .scroll-content {

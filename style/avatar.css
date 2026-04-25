@@ -36,12 +36,12 @@ body {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-} 
+}
 
 img {
     display: block;
     max-width: 100%;
-} 
+}
 
 button,
 a {
@@ -61,13 +61,14 @@ a {
 }
 
 .app {
-  width: 100%;
-  min-height: 100dvh;
-  background: var(--green-pale);
-  display: flex;
-  flex-direction: column;
-  padding-bottom: 72px;
-  /* padding: 20px; */
+    width: 100%;
+    min-height: 100dvh;
+    background: var(--green-pale);
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    padding-bottom: 72px;
+
 }
 
 .scroll-content {

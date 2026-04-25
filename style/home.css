@@ -23,10 +23,12 @@ body {
   color: var(--text-main);
   min-height: 100dvh;
 }
+
 button,
 a {
   -webkit-tap-highlight-color: transparent;
 }
+
 img {
   display: block;
   max-width: 100%;
@@ -44,28 +46,34 @@ img {
   background: var(--white);
   margin: 0 auto;
 }
+
 .menu-main {
   min-height: 100dvh;
   display: flex;
   flex-direction: column;
   padding: 28px 18px 36px;
 }
+
 .menu-header {
   margin-bottom: 34px;
 }
+
 .menu-header h1 {
   font-size: 1.9rem;
   font-weight: 700;
   color: var(--text-main);
 }
+
 .menu-grid-section {
   flex: 1;
 }
+
 .menu-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 16px;
 }
+
 .menu-card {
   display: block;
   width: 100%;
@@ -75,16 +83,20 @@ img {
   text-decoration: none;
   transition: transform 0.2s;
 }
+
 .menu-card:hover {
   transform: translateY(-2px);
 }
+
 .menu-card-active {
   background: linear-gradient(180deg, #1b255e, #162055);
   box-shadow: 0 12px 24px rgba(22, 32, 85, 0.18);
 }
+
 .menu-footer {
   margin-top: 18px;
 }
+
 .brand-pill {
   min-height: 58px;
   width: 100%;
@@ -97,6 +109,7 @@ img {
   justify-content: center;
   box-shadow: 0 14px 28px rgba(22, 32, 85, 0.18);
 }
+
 .brand-pill span {
   font-size: 2.05rem;
   font-weight: 300;
@@ -139,12 +152,14 @@ img {
     gap: 12px;
     margin-bottom: 8px;
   }
+
   .landing-logo img {
     width: 42px;
     height: 42px;
     object-fit: contain;
     filter: brightness(10);
   }
+
   .landing-logo span {
     font-size: 1.6rem;
     font-weight: 900;
@@ -158,6 +173,7 @@ img {
     line-height: 1.15;
     color: var(--white);
   }
+
   .landing-headline em {
     font-style: normal;
     color: #7de8a8;
@@ -176,6 +192,7 @@ img {
     flex-direction: column;
     gap: 16px;
   }
+
   .landing-feature {
     display: flex;
     align-items: flex-start;
@@ -184,11 +201,13 @@ img {
     border-radius: 14px;
     padding: 14px 18px;
   }
+
   .feature-icon {
     font-size: 1.5rem;
     flex-shrink: 0;
     margin-top: 2px;
   }
+
   .landing-feature strong {
     font-size: 0.95rem;
     font-weight: 800;
@@ -196,6 +215,7 @@ img {
     display: block;
     margin-bottom: 2px;
   }
+
   .landing-feature p {
     font-size: 0.82rem;
     color: rgba(255, 255, 255, 0.65);
@@ -216,6 +236,7 @@ img {
     box-shadow: 0 8px 28px rgba(0, 0, 0, 0.2);
     transition: transform 0.2s, box-shadow 0.2s;
   }
+
   .landing-cta:hover {
     transform: translateY(-2px);
     box-shadow: 0 12px 36px rgba(0, 0, 0, 0.28);
@@ -266,11 +287,13 @@ img {
     justify-content: space-between;
     padding: 0 2px;
   }
+
   .preview-title {
     font-size: 0.95rem;
     font-weight: 900;
     color: #1a2e1f;
   }
+
   .preview-badge {
     font-size: 0.72rem;
     font-weight: 800;
@@ -295,6 +318,7 @@ img {
     grid-template-columns: 1fr 1fr;
     gap: 8px;
   }
+
   .preview-card {
     background: var(--white);
     border-radius: 12px;
@@ -305,9 +329,11 @@ img {
     align-items: flex-start;
     box-shadow: 0 2px 8px rgba(30, 100, 60, 0.08);
   }
+
   .preview-card span {
     font-size: 1rem;
   }
+
   .preview-card strong {
     font-size: 0.72rem;
     font-weight: 900;
@@ -329,9 +355,11 @@ img {
   .landing-left {
     padding: 80px 72px;
   }
+
   .landing-right {
     width: 480px;
   }
+
   .phone-mockup {
     width: 290px;
   }
@@ -341,9 +369,11 @@ img {
   .menu-main {
     padding: 24px 16px 30px;
   }
+
   .menu-header h1 {
     font-size: 1.75rem;
   }
+
   .menu-grid {
     gap: 14px;
   }

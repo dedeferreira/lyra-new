@@ -45,6 +45,8 @@ a {
     display: flex;
     flex-direction: column;
     padding-bottom: 72px;
+    padding: 20px;
+
 }
 
 .scroll-content {
