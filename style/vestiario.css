@@ -242,23 +242,21 @@ a {
 .wardrobe-link {
     width: 100%;
     min-height: 98px;
-    padding: 14px 14px 12px;
-    /* display: grid; */
-    grid-template-columns: auto 1fr auto;
-    align-items: center;
-    gap: 10px;
+    padding: 16px 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     text-decoration: none;
 }
 
 .wardrobe-icon {
-    width: 42px;
-    height: 42px;
-    display: inline-flex;
+    width: 36px;
+    height: 36px;
+    display: flex;
     align-items: center;
     justify-content: center;
     color: inherit;
-    align-self: start;
-    margin-top: 15px;
+    flex-shrink: 0;
 }
 
 .wardrobe-icon svg {
@@ -267,23 +265,23 @@ a {
 }
 
 .wardrobe-content {
-    align-self: end;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    gap: 10px;
+    gap: 8px;
+    margin-top: 10px;
 }
 
 .wardrobe-content h3 {
-    font-size: 1.05rem;
+    font-size: 1rem;
     line-height: 1.15;
     font-weight: 900;
 }
 
 .wardrobe-arrow {
-    font-size: 1.4rem;
-    font-weight: 900;
-    align-self: center;
+    font-size: 1.1rem;
+    font-weight: 700;
+    opacity: .6;
 }
 
 .wardrobe-card-green .wardrobe-link {
